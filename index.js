@@ -15,5 +15,6 @@ class Formatter {
     for (element of arr)
     if (!(element === 'a' || element==='an' || element ==='but' || element==='of' || element==='and' || element==='for' || element ==='at' || element==='by' || element==='from'))
     element.toUpperCase()
+    return arr.join();
   }
 }
