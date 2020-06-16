@@ -11,7 +11,8 @@ class Formatter {
   
   static titleize(inString){
     let arr=inString.split(" ");
-    for (element in inString)
+    
+    for (element in arr)
     if (!element === 'a' || element==='an' || element ==='but' || element==='of' || element==='and' || element==='for' || element ==='at' || element==='by' || element==='from')
     element.toUpperCase()
   }
