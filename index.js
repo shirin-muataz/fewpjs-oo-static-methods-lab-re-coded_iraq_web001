@@ -9,4 +9,7 @@ class Formatter {
    return  inString.replace(/[^A-Za-z0-9-']+/g,'');
   }
   
+  static titleize(inString){
+    
+  }
 }
