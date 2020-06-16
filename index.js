@@ -2,7 +2,7 @@ class Formatter {
   //add static methods here
   
   static capitalize(inString){
-   return  inString.charAt(0).toUpperCase();
+   return  inString.charAt(0).toUpperCase()+inString.slice(1);
   }
   
   static sanitize(inString){
