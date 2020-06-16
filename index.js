@@ -12,6 +12,7 @@ class Formatter {
   static titleize(inString){
     let arr=inString.split(" ");
     for (element in inString)
-    if (!element === '')
+    if (!element === 'a' || element==='an' || element ==='but' || element==='of' || element==='and' || element==='for' || element ==='at' || element==='by' || element==='from')
+    
   }
 }
