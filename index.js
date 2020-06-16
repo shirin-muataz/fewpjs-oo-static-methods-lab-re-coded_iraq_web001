@@ -11,6 +11,7 @@ class Formatter {
   
   static titleize(inString){
     let arr=inString.split(" ");
-    
+    for (element in inString)
+    if (!element === '')
   }
 }
