@@ -10,6 +10,7 @@ class Formatter {
   }
   
   static titleize(inString){
+    let arr=inString.split(" ");
     
   }
 }
