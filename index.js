@@ -13,7 +13,7 @@ class Formatter {
     let arr=inString.split(" ");
     arr[0].toUpperCase();
     let arr2=[];
-    for (element of arr)
+    for(element of arr)
     if (!(element === 'a' || element==='an' || element ==='but' || element==='of' || element==='and' || element==='for' || element ==='at' || element==='by' || element==='from'))
    arr2.push(element.toUpperCase());
    else
