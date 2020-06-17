@@ -13,6 +13,7 @@ class Formatter {
     let arr=inString.split(" ");
     arr[0].toUpperCase();
     let arr2=[];
+    arr2.push(arr[0])
     arr.map((element)=>{
     if (!(element === 'a' || element==='an' || element ==='but' || element==='of' || element==='and' || element==='for' || element ==='at' || element==='by' || element==='from'))
    arr2.push(element.charAt(0).toUpperCase()+ element.slice(1));
