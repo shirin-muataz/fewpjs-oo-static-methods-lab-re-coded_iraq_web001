@@ -18,7 +18,7 @@ class Formatter {
    else
    arr2.push(element)
     })
-     arr2[0].charAt(0).toUpperCase()+ arr2[0].slice(1);
+    arr2[0]= arr2[0].charAt(0).toUpperCase()+ arr2[0].slice(1);
     return arr2.join(" ");
   }
 }
