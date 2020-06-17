@@ -18,6 +18,6 @@ class Formatter {
    arr2.push(element.toUpperCase());
    else
    arr2.push(element)
-    return arr2.join();
+    return arr2.join(" ");
   }
 }
