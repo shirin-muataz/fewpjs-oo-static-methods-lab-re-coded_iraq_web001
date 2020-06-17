@@ -15,7 +15,7 @@ class Formatter {
     let arr2=[];
     arr.map((element)=>{
     if (!(element === 'a' || element==='an' || element ==='but' || element==='of' || element==='and' || element==='for' || element ==='at' || element==='by' || element==='from'))
-   arr2.push(element.toUpperCase());
+   arr2.push(element.charAt(0).toUpperCase()+element.slice(1));
    else
    arr2.push(element)
     })
